@@ -18,11 +18,12 @@ class Main extends Component {
         return (
             <div className='col-md-7  part' id="main">
                 <Navtop/>
+                <div className="clearfix"></div>
                 <div className="list row">
-                    <ReactCSSTransitionGroup transitionName="example" transitionAppear={true}
+                    <ReactCSSTransitionGroup transitionName="carousel1" transitionAppear={true}
                                              transitionAppearTimeout={500} transitionEnterTimeout={500}
                                              transitionLeaveTimeout={500}>
-                        <Inner ></Inner>
+                        {Inner}
                     </ReactCSSTransitionGroup>
                 </div>
             </div>

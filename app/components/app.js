@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-
+import {Link} from "react-router"
 class list extends Component{
     render(){
         return (
@@ -17,7 +17,7 @@ class wrapper extends Component{
                     <div className="row-fluid nav-header ">
                         <div className="col-md-6 col-md-offset-3 header">
                             <span className="col-md-2 active">最新</span>
-                            <span className="col-md-2">最热</span>
+                            <span className="col-md-2"><Link to="/detail">最热</Link></span>
                             <span className="col-md-2">其他</span>
                             <div className="clearfix"></div>
                         </div>

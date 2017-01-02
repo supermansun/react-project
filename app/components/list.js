@@ -71,6 +71,9 @@ class Item extends Component{
                     <p className="date">2016-10-01</p>
                     <h3 className="title"><Link to="/detail?id=1234">{this.props.data.title}</Link></h3>
                     <p className="info">阅读(234)</p>
+                    <a href="" className="pic">
+                        <img src="http://upload-images.jianshu.io/upload_images/1767483-83eb3207ae1d1e65.jpg?imageMogr2/auto-orient/strip%7CimageView2/1/w/300/h/300" alt=""/>
+                    </a>
                 </div>
         )
     }

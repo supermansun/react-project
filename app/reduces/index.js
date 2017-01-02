@@ -1,3 +1,4 @@
+import store from "../store";
 export default(state = 0,action)=>{
 	switch(action.type){
 		case "INCR":
@@ -9,4 +10,7 @@ export default(state = 0,action)=>{
 		default:
 			return state
 	}
+}
+export  mapStateToProps = (state)=>{
+
 }
